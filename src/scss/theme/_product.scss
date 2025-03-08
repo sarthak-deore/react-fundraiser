@@ -1,0 +1,127 @@
+.product-gallery-holder {
+    border-radius: 0.5rem;
+    overflow: hidden;
+
+    .swiper-slide {
+        padding: 0 2rem;
+    }
+}
+
+.product-swiper-thumbs {
+    padding: 0 2rem;
+    .swiper-slide {
+        padding: 0;
+    }
+}
+
+.product-image {
+    background-size: cover !important;
+    background-position: center center !important;
+    border-radius: 0.375rem !important;
+    height: 14rem;
+    margin-bottom: 1rem;
+}
+
+.card.sold {
+    opacity: 0.5;
+}
+
+.prevent-pointer {
+    pointer-events: none !important;
+}
+
+.product-gallery-slide {
+    background-size: cover !important;
+    background-position: center center !important;
+    padding-bottom: 100% !important;
+    border-radius: 0.5rem;
+}
+.product-gallery-thumb {
+    background-size: cover !important;
+    background-position: center center !important;
+    padding-bottom: 90px !important;
+    width: 120px !important;
+    border-radius: 0.375rem;
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+.swiper-slide-thumb-active {
+    .product-gallery-thumb {
+        opacity: 1;
+    }
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    width: 3rem;
+    height: 3rem;
+    background: lighten($body-bg, 4%);
+    border: 6px solid $body-bg;
+    border-radius: 50%;
+
+    &::after {
+        font-size: 17px;
+        color: white;
+    }
+}
+
+.swiper-button-prev {
+    left: 5px !important;
+}
+.swiper-button-next {
+    right: 5px !important;
+}
+.swiper-button-disabled {
+    opacity: 0 !important;
+}
+
+.hero-gallery {
+    .product-gallery-slide {
+        padding-bottom: 100% !important;
+    }
+    border-radius: 0.5rem;
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        width: 2.4rem;
+        height: 2.4rem;
+        background: lighten($body-bg, 4%);
+        border: none !important;
+        border-radius: 0.5rem !important;
+
+        &::after {
+            font-size: 17px;
+            color: white;
+        }
+    }
+
+    .swiper-button-prev {
+        left: 0 !important;
+        border-radius: 0 0.5rem 0.5rem 0 !important;
+    }
+    .swiper-button-next {
+        right: 0 !important;
+        border-radius: 0.5rem 0 0 0.5rem !important;
+    }
+}
+
+.quantity {
+    display: flex;
+    align-items: center;
+    padding: 0.45rem;
+    border-radius: $btn-border-radius;
+    flex-shrink: 0;
+    .number {
+        width: 4rem;
+        margin: 0 0.3rem;
+        text-align: center;
+    }
+    button {
+        border: none;
+        background: none;
+        outline: none !important;
+        color: white !important;
+    }
+    border: 3px solid $gray-800;
+}

@@ -1,0 +1,15 @@
+// Main theme file
+
+// custom mixins
+@import 'mixins-custom';
+// general styling
+@import 'general';
+// custom util classes
+@import 'utils';
+// loaders classes
+@import 'loaders';
+// user classes
+@import 'user';
+// 3rd party scripts override
+@import '3rd-party';
+@import 'light';

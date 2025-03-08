@@ -1,0 +1,17 @@
+.navbar-nav-custom-1 {
+  padding-left: 0; /* Default padding */
+}
+
+.navbar-nav-custom-2 {
+  padding-left: 0; /* Default padding */
+}
+
+@media (min-width: 992px) {
+  .navbar-nav-custom-1 {
+    padding-left: 165px; /* Padding for larger screens */
+  }
+
+  .navbar-nav-custom-2 {
+    padding-right: 180px; /* Different padding for larger screens */
+  }
+}

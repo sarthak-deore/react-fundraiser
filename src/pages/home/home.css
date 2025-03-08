@@ -1,0 +1,33 @@
+.custom-element {
+  margin-left: 20px; /* Default for mobile */
+}
+
+/* Media query for desktop */
+@media (min-width: 768px) {
+  /* You can adjust the breakpoint as needed */
+  .custom-element {
+    margin-left: 110px; /* Margin for desktop */
+  }
+}
+
+.custom-contain {
+  padding-right: 3rem; /* Apply right padding for all screen sizes (mobile) */
+  padding-left: 3rem; /* Apply left padding for all screen sizes (mobile) */
+}
+
+@media (min-width: 768px) {
+  .custom-contain {
+    padding-right: 1rem; /* Remove right padding for desktop screens */
+    padding-left: 1rem; /* Remove left padding for desktop screens */
+  }
+}
+
+.custom-element-2 {
+  margin-left: 20px; /* Default for mobile */
+}
+
+@media (min-width: 768px) {
+  .custom-element-2 {
+    margin-left: 28px; /* Margin for desktop */
+  }
+}
